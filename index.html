@@ -2,14 +2,11 @@
 <html lang="en" class="nojs">
 <head>
   <title>HTML Form Elements</title>
-  <meta charset="utf-8">
-  <meta name="viewpoint">
-  <link rel="stylesheet" media="screen" href="css/screen.css">
-  <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
-  <link rel="stylesheet" media="screen" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@600&family=Inter&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css" />
+  <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main id="content">
@@ -18,24 +15,20 @@
     <p>
       Sign up and learn 5 secrets to fight Diabetes!
     </p>
-    <ol>
-      <li id="input-email">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" pattern="^.+@.+$">
-      </li>
-      <div id="space">
-      </div>
-      <li id="input-age-verification">
-        <input type="checkbox" id="age-verification" name="age-verification" value="18">
-        <label for="age-verification">I am over 18 years old</label>
-      </li>
-      <li id="input-submit">
-        <input type="submit" name="submit" id="submit" value="Subscribe">
-      </li>
-    </ol>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" pattern="^.+@.+$" />
+    </div>
+    <div>
+      <input type="checkbox" id="age-verification" name="age-verification" value="18" />
+      <label for="age-verification">I am over 18 years old</label>
+    </div>
+    <div>
+      <input type="submit" name="submit" id="submit" value="Subscribe" />
+    </div>
   </form>
 </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/site.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/site.js"></script>
 </body>
 </html>
